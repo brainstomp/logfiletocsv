@@ -16,5 +16,5 @@ et3c
 Command line:
 
 ```
-cat <yourlogfile> | while read in; do sh whateveryousavedthescriptas.sh <csvoutputfilename> "$in"; done 
+cat <yourlogfile> | while read in; do sh qsologtocsv.sh <csvoutputfilename> "$in"; done 
 ```
